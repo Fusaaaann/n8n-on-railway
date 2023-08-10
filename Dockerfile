@@ -1,3 +1,4 @@
 FROM n8nio/n8n:1.1.1
 EXPOSE 5678
 EXPOSE 80
+ENV ENV_FILE_PATH=/app/example.env
